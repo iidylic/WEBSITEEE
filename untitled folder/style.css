@@ -64,7 +64,10 @@ background-color: black;
 color:white;
 text-align:center;
 margin-top: 50px;
+    padding:50px;
 }
+
+
 
 h1, h2, h3, h5, p {
   color: white;
@@ -75,6 +78,23 @@ h1{
     font-size: 30px;
 }
 
+h2 {
+
+  font-size: 24px;
+
+  font-family: Arial, sans-serif;
+
+  font-weight: bold;
+
+  margin-top: 0;
+
+  padding: 10px;
+
+  background-color:black;
+
+  border-bottom:none;
+
+}
 
 
 .header {
@@ -84,7 +104,7 @@ text-align:center;
     position:fixed;
     top: 20px;
     width:100%;
-    padding: 10 px;
+    margin-top: 20px;
     z-index: 1; /*makes sure the header is on top of navbar*/
   text-align: center; 
 }
@@ -133,6 +153,7 @@ ul {
 
 li {
  display: inline-block;
+    font-family:sans-serif;
 }
 
 a {
@@ -152,4 +173,103 @@ li:last-child {
   border-bottom: none;
 }
 
+
+#blinkie-container {
+  /* add some padding and margin to create space around the container */
+  padding: 20px;
+  margin: 20px auto;
+  /* set a maximum width to keep the container from getting too wide */
+  max-width: 300px;
+  /* add a background color or image to make it stand out */
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  /* add some box shadow to give it depth */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-container {
+
+  width: 80%; /* adjust the width as needed */
+
+  margin: 20px auto;
+
+  padding: 20px;
+
+  border: 1px solid #ddd; /* add a border to visualize the container */
+
+}
+
+
+.scrollable {
+
+  overflow-y: auto;
+
+  max-height: 300px; /* adjust the max height as needed */
+
+}
+
+
+.update-log {
+
+  /* add some basic styling to the update log content */
+
+  font-size: 14px;
+
+  line-height: 1.5;
+
+  padding: 10px;
+
+}
+
+
+/* Add this to your existing CSS */
+
+/* Create a container to hold both columns */
+.container-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Style the existing container for blinkies and GIFs */
+#CHEZORE'S SPACE {
+  width: 50%; /* adjust the width as needed */
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd; /* add a border to visualize the container */
+}
+
+/* Style the new container for the update log */
+.update-log-container {
+  width: 50%; /* adjust the width as needed */
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd; /* add a border to visualize the container */
+}
+
+/* Make the containers sit side by side */
+.container-row > div {
+  flex: 1;
+}
+
+
+.divider {
+
+  display: block;
+
+  margin: 20px auto; /* adjust the margin to fit your design */
+
+  width: 100%; /* make the divider image full-width */
+
+  height: auto; /* maintain the aspect ratio of the image */
+
+}
+
+.align-left {
+
+  float: left;
+
+  margin: 50px; /* add some margin to create space around the image */
+
+}
 
