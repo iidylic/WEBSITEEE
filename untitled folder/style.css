@@ -1,0 +1,155 @@
+<link rel="stylesheet" href="style.css">
+
+
+   @font-face {
+  font-family: Crystopia;
+  src: url(cra.TTF);
+}
+
+
+    @font-face {
+  font-family: Ghastly_Panic;
+  src: url(ghast.TTF);
+}
+
+
+ @font-face {
+  font-family: Shadow of the deads;
+  src: url(shadow.TTF);
+}
+
+
+@font-face {
+  font-family: Chalkboard;
+  src: url(chalk.TTF);
+}
+
+
+
+@font-face {
+  font-family: Daydream;
+  src: url(daydream.TTF);
+}
+
+
+    
+
+
+@font-face {
+  font-family: Musashi;
+  src: url(musashi.TTF);
+}
+
+
+@font-face {
+  font-family: Mario Kart DS;
+  src: url(mariokart.TTF);
+}
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+background-color: black;
+color:white;
+text-align:center;
+margin-top: 50px;
+}
+
+h1, h2, h3, h5, p {
+  color: white;
+}
+
+
+h1{
+    font-size: 30px;
+}
+
+
+
+.header {
+  background-color: #333; 
+  padding: 20px;
+text-align:center;
+    position:fixed;
+    top: 20px;
+    width:100%;
+    padding: 10 px;
+    z-index: 1; /*makes sure the header is on top of navbar*/
+  text-align: center; 
+}
+
+.row {
+  display: flex; /* Make the row a flex container */
+  flex-wrap: wrap; /* Allow the row to wrap to the next line */
+  justify-content: center; /* Center the row content */
+}
+
+.leftcolumn {
+  flex-basis: 30%; /* Set the width of the left column */
+  padding: 20px; /* Add some padding to the left column */
+}
+
+.card {
+  background-color: #444; /* Add a background color to the card */
+  padding: 20px; /* Add some padding to the card */
+  margin-bottom: 20px; /* Add some margin between cards */
+}
+
+a.button {
+  background-image: linear-gradient(to bottom, #4a235a, #1c1a1a);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+a.button:hover {
+  background-image: linear-gradient(to bottom, #3e8e41, #2e6c31);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  height: 100%; 
+  position: fixed; 
+  overflow: auto; 
+  top: 50px;
+}
+    
+
+li {
+ display: inline-block;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  
+}
+
+
+
+li {
+  text-align: center;
+  border-bottom: none;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+
