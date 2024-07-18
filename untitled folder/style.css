@@ -136,7 +136,8 @@ a.button {
 }
 
 a.button:hover {
-  background-image: linear-gradient(to bottom, #3e8e41, #2e6c31);
+  background-image: linear-gradient(to bottom, #fbbaf4, #7a4a75);
+    text-decoration-color:chartreuse;
 }
 
 ul {
