@@ -49,6 +49,11 @@
 
 
 
+@font-face {
+font-family:kiwisoda;
+src: url(KiwiSoda.ttf);
+}
+ 
 
 
 
@@ -300,3 +305,9 @@ li:last-child {
   height:90px;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
