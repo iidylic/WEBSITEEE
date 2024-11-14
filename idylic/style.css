@@ -197,13 +197,10 @@ li:last-child {
 .text-container {
 
   width: 80%; /* adjust the width as needed */
-
   margin: 20px auto;
-
   padding: 20px;
-
   border: 1px solid #ddd; /* add a border to visualize the container */
-
+  text-align: center;
 }
 
 
@@ -287,6 +284,7 @@ li:last-child {
 	border: 1px solid #ddd;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	width: 300px;
+  overflow:auto;
 }
 
 
@@ -297,6 +295,7 @@ li:last-child {
 
 .post p {
 	margin-bottom: 20px;
+  overflow:auto;
 }
 
 .flex-container {
